@@ -11,3 +11,10 @@ const exceptFirst = (...parameters) => {
 };
 
 console.log(exceptFirst(2, "delfin", null));
+
+//zadanie 3
+const last2Parameter = (...parameters) => {
+    return parameters.slice(-2);
+};
+
+console.log(last2Parameter(1, 3, undefined, null));
