@@ -18,3 +18,10 @@ const last2Parameter = (...parameters) => {
 };
 
 console.log(last2Parameter(1, 3, undefined, null));
+
+//zadanie 4
+const indexOf = (element, array) => {
+    return array.indexOf(element);
+};
+
+console.log(indexOf("kawa", ["rum", "kawa", "sangría"]));
