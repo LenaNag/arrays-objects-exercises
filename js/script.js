@@ -59,3 +59,10 @@ const people = [
 const someAdult = x => x.age >= 19;
 const isSomeAdult = people.some(someAdult);
 console.log(isSomeAdult);
+
+//zadanie 9
+const argumenty = ["", "żelazko"];
+
+const onlyString = argument => typeof argument === "string";
+const isOnlyString = argumenty.every(onlyString);
+console.log(isOnlyString);
