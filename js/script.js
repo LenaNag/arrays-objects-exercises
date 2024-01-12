@@ -74,3 +74,12 @@ const premiumCarBrands = ["BMW", "Audi", "Mercedes"];
 const isPremiumCarBrands = brands => premiumCarBrands.includes(brands);
 const filterPremium = carBrands.filter(isPremiumCarBrands);
 console.log(filterPremium);
+
+//zadanie 11
+const carsColors = [
+    {car: "BMW X5", color: "black"},
+    {car: "Peugeot 3008", color: "white"},
+];
+
+const getColors = carsColors.map(({color}) => color);
+console.log(getColors);
