@@ -25,3 +25,14 @@ const indexOf = (element, array) => {
 };
 
 console.log(indexOf("kawa", ["rum", "kawa", "sangría"]));
+
+//zadanie 5
+const tasks = [
+    {content: ""},
+    {content: "kupić balony w kształcie psów"},
+];
+
+const findNonEmptyTask = task => task.content !== "";
+
+const nonEmptyTask = tasks.find(findNonEmptyTask);
+console.log(nonEmptyTask);
