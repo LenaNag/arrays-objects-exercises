@@ -83,3 +83,12 @@ const carsColors = [
 
 const getColors = carsColors.map(({color}) => color);
 console.log(getColors);
+
+//zadanie 12
+const allPeople = [
+    {name: "Krzychu", age: 30},
+    {name: "Zdzichu", age: 20},
+];
+
+const sortPeople = allPeople.sort((a, b) => a.age - b.age);
+console.log(sortPeople);
