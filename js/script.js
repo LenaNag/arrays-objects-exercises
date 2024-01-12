@@ -43,3 +43,9 @@ const numbers = [2, 4, 7, 8];
 const oddIndex = number => number % 2 == 1;
 const firstOddIndex = numbers.findIndex(oddIndex);
 console.log(firstOddIndex);
+
+//zadanie 7
+const fruits = ["banan", "marakuja"];
+
+const hasStrawberry = fruits.includes("truskawka");
+console.log(hasStrawberry);
