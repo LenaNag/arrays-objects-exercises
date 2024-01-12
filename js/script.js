@@ -49,3 +49,13 @@ const fruits = ["banan", "marakuja"];
 
 const hasStrawberry = fruits.includes("truskawka");
 console.log(hasStrawberry);
+
+//zadanie 8
+const people = [
+    {name: "Melodia", age: 15},
+    {name: "Kosmo", age: 19},
+];
+
+const someAdult = x => x.age >= 19;
+const isSomeAdult = people.some(someAdult);
+console.log(isSomeAdult);
