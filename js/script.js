@@ -66,3 +66,11 @@ const argumenty = ["", "żelazko"];
 const onlyString = argument => typeof argument === "string";
 const isOnlyString = argumenty.every(onlyString);
 console.log(isOnlyString);
+
+//zadanie 10
+const carBrands = ["Peugeot", "BMW", "Audi"];
+const premiumCarBrands = ["BMW", "Audi", "Mercedes"];
+
+const isPremiumCarBrands = brands => premiumCarBrands.includes(brands);
+const filterPremium = carBrands.filter(isPremiumCarBrands);
+console.log(filterPremium);
