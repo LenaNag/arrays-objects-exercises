@@ -36,3 +36,10 @@ const findNonEmptyTask = task => task.content !== "";
 
 const nonEmptyTask = tasks.find(findNonEmptyTask);
 console.log(nonEmptyTask);
+
+//zadanie 6
+const numbers = [2, 4, 7, 8];
+
+const oddIndex = number => number % 2 == 1;
+const firstOddIndex = numbers.findIndex(oddIndex);
+console.log(firstOddIndex);
